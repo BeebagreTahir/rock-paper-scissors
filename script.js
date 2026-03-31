@@ -29,7 +29,7 @@ autoPlay.addEventListener('click',()=>{
         IntervalID = setInterval(function(){
         playgame(computerMove());
         isautoplaying = true
-    },3000)}
+    },2000)}
     else{
         clearInterval(IntervalID);
         isautoplaying = false;
